@@ -10,4 +10,6 @@ Base requirements for participating are:
 
 Tools:
 
-- TODO (MMUR)
+- Java Developers: IntelliJ IDEA & Code with Me (plugin)
+- Web Developers: either Visual Studio Code & Live Share (plugin) OR WebStorm & Code with Me (plugin)
+- .Net Developers: Visual Studio
