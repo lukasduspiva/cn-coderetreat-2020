@@ -70,6 +70,26 @@ Does not require any installation on your local device, but be sure you have a v
 |Viktor | Daniel | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-3-1604046417722) |
 |Tomáš | Michal | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-4-1604046417722) |
 
+Rules:
+
+- Game of Life 
+
+### Session # 2
+
+| Participant A | Participant B | Pair Space |
+| :-----------: |:-------------:| :---------:|
+|Daniel | Lukáš | [meeting room](https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-2-0-1604047178188) |
+|Adam | Viktor | [meeting room](https://hangouts.google.com/call/Z7StD6iLyPMNMn3GNl24ACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-2-1-1604047178188) |
+|Vojtěch | Lucia | [meeting room](https://hangouts.google.com/call/Sby41nQmIvpfRpQEektWACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-2-2-1604047178188) |
+|Michal | Mária | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-2-3-1604047178188) |
+|Tomáš | Jozef | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-2-4-1604047178188) |
+
+Rules:
+
+- Game of Life
+- TDD - ping-pong
+- max 4 lines of code per method/function
+
 ## Game of Life
 
 For more information visit the [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) page at Wikipedia.
