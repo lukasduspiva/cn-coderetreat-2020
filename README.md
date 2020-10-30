@@ -90,6 +90,23 @@ Rules:
 - TDD - ping-pong
 - max 4 lines of code per method/function
 
+### Session # 3
+
+| Participant A | Participant B | Pair Space |
+| :-----------: |:-------------:| :---------:|
+|Tomáš | Viktor | [meeting room](https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-3-0-1604047178188) |
+|Lucia | Michal | [meeting room](https://hangouts.google.com/call/Z7StD6iLyPMNMn3GNl24ACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-3-1-1604047178188) |
+|Lukáš | Mária | [meeting room](https://hangouts.google.com/call/Sby41nQmIvpfRpQEektWACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-3-2-1604047178188) |
+|Daniel | Jozef | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-3-3-1604047178188) |
+|Vojtěch | Adam | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-3-4-1604047178188) |
+
+Rules:
+
+- Game of Life
+- TDD - ping-pong
+- 4 Rules of Simple Design
+- TDD as if you meant it
+
 ## Game of Life
 
 For more information visit the [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) page at Wikipedia.
@@ -158,3 +175,15 @@ Any dead cell with exactly three live neighbors becomes a live cell, as if by re
 |:---:|:---:|:---:|
 | ❔ | 🦠 | ❔ |
 | ❔ | ❔ | ❔ |
+
+
+## 4 Rules of Simple Design
+
+Consists of:
+
+1. Tests Pass
+2. Expresses Intent
+3. No Duplication
+4. Small
+
+Further reading - [Corey Haines: Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign).
