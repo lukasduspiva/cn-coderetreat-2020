@@ -107,6 +107,23 @@ Rules:
 - 4 Rules of Simple Design
 - TDD as if you meant it
 
+### Session # 4
+
+| Participant A | Participant B | Pair Space |
+| :-----------: |:-------------:| :---------:|
+|Lukáš | Jozef | [meeting room](https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-4-0-1604047178188) |
+|Daniel | Michal | [meeting room](https://hangouts.google.com/call/Z7StD6iLyPMNMn3GNl24ACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-4-1-1604047178188) |
+|Viktor | Vojtěch | [meeting room](https://hangouts.google.com/call/Sby41nQmIvpfRpQEektWACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-4-2-1604047178188) |
+|Adam | Lucia | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-4-3-1604047178188) |
+|Tomáš | Mária | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-4-4-1604047178188) |
+
+Rules:
+
+- Game of Life
+- TDD - navigator-drive
+- 4 Rules of Simple Design
+- no arrays/collections
+
 ## Game of Life
 
 For more information visit the [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) page at Wikipedia.
