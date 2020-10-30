@@ -124,6 +124,24 @@ Rules:
 - 4 Rules of Simple Design
 - no arrays/collections
 
+### Session # 5
+
+| Participant A | Participant B | Pair Space |
+| :-----------: |:-------------:| :---------:|
+|Vojtěch | Mária | [meeting room](https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-5-0-1604047178189) |
+|Daniel | Lucia | [meeting room](https://hangouts.google.com/call/Z7StD6iLyPMNMn3GNl24ACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-5-1-1604047178189) |
+|Tomáš | Lukáš | [meeting room](https://hangouts.google.com/call/Sby41nQmIvpfRpQEektWACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-5-2-1604047178189) |
+|Viktor | Jozef | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-5-3-1604047178189) |
+|Michal | Adam | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-5-4-1604047178189) |
+
+Rules:
+
+- Game of Life
+- TDD - ping-ping
+- 4 Rules of Simple Design
+- mute
+- immutables only
+
 ## Game of Life
 
 For more information visit the [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) page at Wikipedia.
