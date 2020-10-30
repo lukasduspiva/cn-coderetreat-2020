@@ -64,12 +64,11 @@ Does not require any installation on your local device, but be sure you have a v
 
 | Participant A | Participant B | Pair Space |
 | :-----------: |:-------------:| :---------:|
-|Mária | Lucia | [meeting room](https://meet.jit.si/CN-CODERETREAT-2020-1-0-1604046254321) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-0-1604046254321) |
-|Vojtěch | Lukáš | [meeting room](https://meet.jit.si/CN-CODERETREAT-2020-1-1-1604046254321) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-1-1604046254321) |
-|Jozef | Adam | [meeting room](https://meet.jit.si/CN-CODERETREAT-2020-1-2-1604046254321) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-2-1604046254321) |
-|Viktor | Daniel | [meeting room](https://meet.jit.si/CN-CODERETREAT-2020-1-3-1604046254321) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-3-1604046254321) |
-|Tomáš | Michal | [meeting room](https://meet.jit.si/CN-CODERETREAT-2020-1-4-1604046254321) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-4-1604046254321) |
-
+|Mária | Lucia | [meeting room](https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-0-1604046417722) |
+|Vojtěch | Lukáš | [meeting room](https://hangouts.google.com/call/Z7StD6iLyPMNMn3GNl24ACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-1-1604046417722) |
+|Jozef | Adam | [meeting room](https://hangouts.google.com/call/Sby41nQmIvpfRpQEektWACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-2-1604046417722) |
+|Viktor | Daniel | [meeting room](https://hangouts.google.com/call/O33OXx57WIobEoYi_61EACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-3-1604046417722) |
+|Tomáš | Michal | [meeting room](https://hangouts.google.com/call/EEW2cquAKJMB0Jb788emACEI?no_rd) + [paper](https://onthesamepage.online/CN-CODERETREAT-2020-1-4-1604046417722) |
 
 ## Game of Life
 
