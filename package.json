@@ -1,0 +1,30 @@
+{
+  "name": "cn-coderetreat-2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "random-pairs:example": "node scripts/createRandomPairs.js --numberOfSessions=3 --seed=42 --participants Lukáš Martin Tomáš Viktor > dist/sessions.md",
+    "random-pairs": "node scripts/createRandomPairs.js > dist/sessions.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasduspiva/cn-coderetreat-2020.git"
+  },
+  "keywords": [
+    "coderetreat",
+    "game-of-life"
+  ],
+  "author": "Lukáš Duspiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasduspiva/cn-coderetreat-2020/issues"
+  },
+  "homepage": "https://github.com/lukasduspiva/cn-coderetreat-2020#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "yargs": "^16.1.0"
+  }
+}
