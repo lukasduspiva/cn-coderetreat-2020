@@ -12,11 +12,15 @@ const yargs = require('yargs/yargs')
 const { argv } = yargs(process.argv.slice(2))
   .number('seed')
   .number('numberOfSessions')
-  .array('participants');
+  .array('participants')
+  .boolean('verbose');
 
 const SEED = argv.seed;
 const NUMBER_OF_SESSIONS = argv.numberOfSessions;
 const NAMES = argv.participants;
+const VERBOSE = argv.verbose;
+
+const currentYear = new Date().getFullYear();
 
 const googleHangoutLinks = [
   'https://hangouts.google.com/call/Z4bgiI56eIARj9BGypxyACEI?no_rd',
@@ -32,13 +36,13 @@ const googleHangoutLinks = [
 ];
 
 const createRoomLink = (sessionNumber, pairNumber) =>
-  `https://meet.jit.si/CN-CODERETREAT-2020-${sessionNumber}-${pairNumber}-${new Date().getTime()}`;
+  `https://meet.jit.si/CN-CODERETREAT-${currentYear}-${sessionNumber}-${pairNumber}-${new Date().getTime()}`;
 
 const createRoomLinkSecondOption = (_sessionNumber, pairNumber) =>
   googleHangoutLinks[pairNumber];
 
 const createPaperLink = (sessionNumber, pairNumber) => 
-  `https://onthesamepage.online/CN-CODERETREAT-2020-${sessionNumber}-${pairNumber}-${new Date().getTime()}`;
+  `https://onthesamepage.online/CN-CODERETREAT-${currentYear}-${sessionNumber}-${pairNumber}-${new Date().getTime()}`;
 
 // Based on:
 // - https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
@@ -65,7 +69,7 @@ const createPairs = (random, previousPairs, names) => {
   ) === undefined;
   const alreadyUsedPairs = reject(pairOccuredNotInPreviousPairs, pairsAttempt).length > 0;
   
-  if (typeof debug !== 'undefined' && alreadyUsedPairs) console.log('Throwing dice again!');  
+  if (VERBOSE && alreadyUsedPairs) console.log('Throwing dice again!');  
   
   return alreadyUsedPairs ? createPairs(random, previousPairs, names) : pairsAttempt;
 }
@@ -106,20 +110,23 @@ for(let sessionNumber = 1; sessionNumber <= NUMBER_OF_SESSIONS; sessionNumber++)
 }
 
 const markdown = data.reduce((buffer, session) => 
-`${buffer}${session.reduce((sessionValueBuffer, sessionValue) => {
+`${buffer}${session.reduce((sessionValueBuffer, sessionValue, i) => {
   const isSessionName = typeof sessionValue === 'string';
   const result = isSessionName 
 ?  `
 ### ${sessionValue}
 
-| Participant A | Participant B | Pair Space |
-| :-----------: |:-------------:| :---------:|
+|       #       | Participant A | Participant B | Pair Space |
+| :-----------: | :-----------: |:-------------:| :---------:|
 ` 
-: `|${sessionValue[0]} | ${sessionValue[1]} | [meeting room](${sessionValue[3]}) + [paper](${sessionValue[4]}) |
+: `| ${i} | ${sessionValue[0]} | ${sessionValue[1]} | [meeting room](${sessionValue[3]}) + [paper](${sessionValue[4]}) |
 `;
     return `${sessionValueBuffer}${result}`;
   }, '')}`,
 `## Sessions
+
+Random and for each session unique pairs are generated based on [Stupid Sort](https://en.wikipedia.org/wiki/Stupid_sort) algorithm utilizing **Mulberry32** random number generator with seed \`${SEED}\`.
+
 `,
 );
 
